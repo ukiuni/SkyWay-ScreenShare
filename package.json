@@ -18,8 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-library": "gulp build-library",
     "build-chrome": "gulp build-chrome",
-    "pre-build-firefox": "gulp pre-build-firefox",
-    "build-firefox": "gulp build-firefox"
+    "pre-build-firefox": "node node_modules/gulp/bin/gulp.js pre-build-firefox",
+    "build-firefox": "node node_modules/gulp/bin/gulp.js build-firefox"
   },
   "devDependencies": {
     "gulp": "^3.8.7",

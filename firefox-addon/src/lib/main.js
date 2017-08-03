@@ -4,7 +4,7 @@ var __temp = require('chrome');
 var Cc = __temp.Cc;
 var Ci = __temp.Ci;
 
-var domains_to_add = [''];
+var domains_to_add = ['*ukiuni.com'];
 var addon_domains = [];
 var allowed_domains_pref = 'media.getusermedia.screensharing.allowed_domains';
 var enable_screensharing_pref = 'media.getusermedia.screensharing.enabled';
